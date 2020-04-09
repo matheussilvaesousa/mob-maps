@@ -70,7 +70,7 @@
 
           <div class="input-group mb-3" style="width: 26rem;">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: aquamarine;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -81,41 +81,36 @@
 
           </div>
           
-          <div class="card mb-2" style="width: 26rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Rua Siqueira Bueno</h5>
-              <p class="card-text">Rua Siqueira Bueno, Mooca, São Paulo, SP</p>
-              <a href="#" class="btn btn-primary">Avaliar Caminho</a>
+            <form>
+            <div class="form-group" style="width: 26rem;">
+                <label for="exampleFormControlInput1">Endereço de E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-          </div>
-
-          <div class="card mb-2" style="width: 26rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Rua Bartolomeu Bueno de Siqueira</h5>
-              <p class="card-text">Rua Bartolomeu Bueno de Siqueira, Parque Cruzeiro do Sul, São Paulo, SP</p>
-              <a href="#" class="btn btn-primary">Avaliar caminho</a>
+            <div class="form-group" style="width: 26rem;">
+                <label for="exampleFormControlSelect1">Selecionar problema:</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                <option>Buraco</option>
+                <option>Sem calçada</option>
+                <option>Obstrução</option>
+                <option>Poste</option>
+                <option>Outro (comentário)</option>
+                </select>
             </div>
-          </div>
-
-          <div class="card mb-2" style="width: 26rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Vila Siqueira Bueno, Belenzinho, São Paulo, SP</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Avaliar caminho</a>
+            <div class="form-group" style="width: 26rem;">
+                <label for="exampleFormControlSelect2">Grau de Dificuldade</label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                </select>
             </div>
-          </div>
-
-          <div class="card mb-2" style="width: 26rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Escola Municipal Siqueira Bueno, Jd. Vila Galvão, Guarulhos, SP</h5>
-              <p class="card-text">Praça Nossa Sra. Aparecida, 324, Jd. Vila Galvão, Guarulhos, SP</p>
-              <a href="#" class="btn btn-primary">Avaliar caminho</a>
+            <div class="form-group" style="width: 26rem;">
+                <label for="exampleFormControlTextarea1">Adicionar Comentário</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-          </div>
+        </form>
 
         <div class="col-4"></div>
         <div class="col-4"></div>

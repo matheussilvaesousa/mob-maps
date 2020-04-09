@@ -1,0 +1,3 @@
+- enviar problema
+- procurar endereço
+- mostrar caminho
